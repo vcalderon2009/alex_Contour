@@ -1,0 +1,14 @@
+name: alex_proj
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=2.7
+  - anaconda
+  - wxpython
+  - pip
+  - pip:
+    - GifTiffLoader
+    - ImageContour
