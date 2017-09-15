@@ -12,10 +12,10 @@ Data_path = os.path.abspath('./Segments/')
 # d = wx.DirSelector('Select a SWS results Directory (must contain a Segments folder)')
 
 d=os.getcwd()
-segDir = os.path.join(d,'Segments')
+segDir     = os.path.join(d,'Segments')
 outputFile = os.path.join(d,'cellularVoronoiDiagramList.json')
-waterArr = GTL.LoadFileSequence(segDir)
-cvdList = SCT.GetCVDListStatic( waterArr,
+waterArr   = GTL.LoadFileSequence(segDir)
+cvdList    = SCT.GetCVDListStatic( waterArr,
                                 d,
                                 True,
                                 splitLength=None,
