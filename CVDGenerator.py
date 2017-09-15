@@ -22,6 +22,5 @@ cvdList    = SCT.GetCVDListStatic( waterArr,
                                 fixedNumInteriorPoints=0)
 # Writing to file
 with open(outputFile,'w') as fid:
-
     json.dump(cvdList,fid)
 
